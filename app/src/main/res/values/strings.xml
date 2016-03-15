@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">I am Here</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="appTitle">Bus Finder</string>
+</resources>

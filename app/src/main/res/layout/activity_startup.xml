@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.bm121.iamhere.Startup"
+    android:id="@+id/logo"
+    android:background="#b5fbb5">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/magic"
+            android:adjustViewBounds="true"
+            android:maxWidth="1000dp"
+            android:maxHeight="1000dp"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="I Am Here"
+            android:id="@+id/textView"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:textSize="60dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="v0.0.3"
+            android:id="@+id/textView2"
+            android:textSize="25dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editName"
+            android:text="Name"
+            android:width="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter"
+            android:id="@+id/buttonEnter"
+            android:layout_below="@+id/editName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="continueNow" />
+</RelativeLayout>
